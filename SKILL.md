@@ -35,7 +35,7 @@ If there are staged or unstaged changes:
 3. Draft a commit message matching the repo's existing style. Use `git log --oneline -5` to check — if that fails (new repo, detached HEAD), fall back to conventional commits (`feat:`, `fix:`, `chore:`).
 4. Stage relevant files. Never stage `.env`, `.env.*`, credentials, secrets, or `node_modules`.
 5. Commit.
-6. If there are unpushed commits, push to the remote tracking branch. If there is no upstream, ask whether to set one.
+6. If there are unpushed commits, ask the user whether to push. If they confirm, push to the remote tracking branch. If there is no upstream, ask whether to set one.
 
 ## Step 5: Update CLAUDE.md
 
