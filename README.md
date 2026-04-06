@@ -1,6 +1,6 @@
 # Nuke
 
-End-of-session housekeeping for LLM coding assistants. Kills dev servers, runs tests, commits, pushes, and updates project docs — in order, with confirmation gates at every destructive step.
+End-of-session housekeeping before you nuke the context window. Kills dev servers, runs tests, commits, pushes, and updates project docs — in order, with confirmation gates at every destructive step.
 
 One command. Clean exit. Nothing forgotten.
 
