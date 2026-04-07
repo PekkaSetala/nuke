@@ -77,4 +77,4 @@ A test report should include:
 - Changes that haven't been tested
 - New steps without a safety analysis
 - Instructions that are vague or skip confirmation gates
-- Anything that could kill processes, delete files, or push code without explicit user confirmation
+- Anything that could kill processes, delete files, or push code without explicit user confirmation (exception: `--yolo` mode, which the user opts into)
